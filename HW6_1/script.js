@@ -75,7 +75,7 @@ function totalSumm(shoppingCart) {
     }, 0);
 }
 
-// так по приколу, правильные окончания
+// правильные окончания
 function correctEnding() {
     let corEnd = '';
     if (shoppingCart.length == 1) {
