@@ -1,0 +1,25 @@
+#field{
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: calc(50vh - 200px);
+  left: calc(50% - 200px);
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid black;
+}
+
+.col {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+.snake{
+  background-color:chartreuse;
+}
+
+.apple{
+  background-color:chocolate;
+}
